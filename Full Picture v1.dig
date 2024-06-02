@@ -68,12 +68,16 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>CLK</string>
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>20</int>
+          <int>5</int>
         </entry>
       </elementAttributes>
       <pos x="1700" y="580"/>
@@ -977,11 +981,6 @@
         </entry>
       </elementAttributes>
       <pos x="1980" y="-560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Control Unit.dig</elementName>
-      <elementAttributes/>
-      <pos x="1600" y="-460"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6517,6 +6516,11 @@ repeat(40)	C	X	X	X	X	X	X	X	X	X
       <elementAttributes/>
       <pos x="5960" y="280"/>
     </visualElement>
+    <visualElement>
+      <elementName>Control Unit.dig</elementName>
+      <elementAttributes/>
+      <pos x="1600" y="-460"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -6718,6 +6722,10 @@ repeat(40)	C	X	X	X	X	X	X	X	X	X
     <wire>
       <p1 x="1760" y="140"/>
       <p2 x="1840" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="140"/>
+      <p2 x="1740" y="140"/>
     </wire>
     <wire>
       <p1 x="1520" y="-400"/>
