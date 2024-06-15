@@ -1,0 +1,1 @@
+This project is about applying the fundamental concepts of IC/Digital design to implement the 16-bit computer from Morris Mano's famous book "Computer System Architecture" with the help of Digital, a simulation tool by Helmut Neeman.
